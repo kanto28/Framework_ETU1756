@@ -48,7 +48,8 @@ public class Kanto {
     public void update(){   
     }
     @Url(url_map="findall")
-    public ModelView whereKanto(){
+    public ModelView whereKanto()
+    {
         ModelView mv=new ModelView();
         mv.addItem("1","Class Kanto");
         mv.setUrl("page1.jsp");
